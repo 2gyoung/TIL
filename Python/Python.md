@@ -1,3 +1,11 @@
+## 리스트
+### sort()와 sorted()의 차이
+**sort()**
+리스트에 내장된 메서드(함수) 중 하나. return값이 None이다. 리스트 자체의 순서를 바꾼다.
+사용 예: `sample.sort()`
+**sorted()**
+외장함수. 리스트를 return한다.
+사용 예: `sorted(sample)`
 ## 함수
 ### 함수의 파라미터
 함수의 파라미터 순서 = 일반 변수, `args`, `kwargs`
@@ -81,7 +89,7 @@ f.close()
 f = open('hello.txt', 'r', encoding='utf-8')
 
 for line in f:
-    print(line.strip())
+    print(line.strip())    # strip()은 줄바꿈 때문에
 
 f.close()
 ```
